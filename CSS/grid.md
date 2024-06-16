@@ -18,14 +18,14 @@ display: grid;
       6. Grid line : Grid 셀을 구분하는 선
       7. Grid number : Grid 라인의 각 번호
       8. Grid gap : Grid 셀 사이의 간격
-      9. Grid area : Grid 라인으로 둘러싸인 사각형 영역, 그리드 셀의 집합
+      9. Grid area : Grid 라인으로 둘러싸인 사각형 영역, grid 셀의 집합
 
       > 출처 : 1분코딩
       >
       > <img src="https://studiomeal.com/wp-content/uploads/2020/01/03-2.jpg" width="70%" height="70%"/>
 
    2. 추가 설명
-      1. 크롬 개발자 도구를 이용하면 그리드를 확인할 수 있다.
+      1. 크롬 개발자 도구를 이용하면 grid를 확인할 수 있다.
       2. 컨테이너가 Grid의 영향을 받는 전체 공간이고, 설정된 속성에 따라 각각의 아이템들이 어떤 형태로 배치되는 것이다.
 
 2. 속성들
