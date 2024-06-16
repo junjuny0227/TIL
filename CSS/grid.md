@@ -22,7 +22,7 @@ display: grid;
 
       > 출처 : 1분코딩
       >
-      > <img src="https://studiomeal.com/wp-content/uploads/2020/01/03-2.jpg" width="100%" height="100%"/>
+      > <img src="https://studiomeal.com/wp-content/uploads/2020/01/03-2.jpg" width="70%" height="70%"/>
 
    2. 추가 설명
       1. 크롬 개발자 도구를 이용하면 그리드를 확인할 수 있다.
