@@ -10,7 +10,7 @@ display: grid;
    1. 용어 정리
 
       1. row : 가로줄(행)
-      2. column : 세로줄(열)
+      2. column \*\*\*\*: 세로줄(열)
       3. Grid container : display: grid를 적용하는 Grid의 전체 영역
       4. Grid item : Grid 컨테이너의 자식 요소
       5. Grid cell : Grid의 한 칸을 가리키는 말
