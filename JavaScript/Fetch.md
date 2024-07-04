@@ -103,5 +103,6 @@ fetch("https://jsonplaceholder.typicode.com/posts/", {
   });
 ```
 
-결과
-<img src="./img/JSONPlaceholder.png">
+> ## 결과
+>
+> <img src="./img/JSONPlaceholder.png">
