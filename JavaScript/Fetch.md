@@ -33,8 +33,12 @@ fetch() 함수는 디폴트로 GET 방식으로 작동하고 GET 방식은 요�
 
 ```javascript
 fetch("주소")
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then((response) => {
+    return response.json(); // JSON 응답을 파싱
+  })
+  .then((data) => {
+    console.log(data); // 파싱된 데이터 사용
+  });
 ```
 
 응답이 이루어지면 응답받은 결과는 then() 함수의 인수로 전달 받는다.
@@ -44,34 +48,42 @@ fetch("주소")
 ```javascript
 fetch("주소", {
   method: "POST",
+  headers: {
+  헤더 값
+  }
   body: JSON.stringify({
 	전달할 json 데이터
   }),
-  headers: {
-	헤더 값
-  }
 })
-.then((response) => response.json())
-.then((json) => console.log(json));
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  });
 ```
 
 method에는 HTTP 요청 방법을 기록한다.
 
 ### PUT (데이터 수정)
 
-````javascript
+```javascript
 fetch("주소/:id", {
-  method: "POST",
+  method: "PUT",
+  headers: {
+  헤더 값
+  },
   body: JSON.stringify({
 	변경할 json 데이터
-  }),
-  headers: {
-	헤더 값
-  }
+  })
 })
-.then((response) => response.json())
-.then((json) => console.log(json));```
-````
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  });
+```
 
 POST와 유사하지만 주소/:id에서 특정 id의 값을 바꿔야하기 때문에 id를 입력하지 않으면 오류가 발생한다.
 
@@ -79,7 +91,13 @@ POST와 유사하지만 주소/:id에서 특정 id의 값을 바꿔야하기 때
 
 ```javascript
 fetch("주소/:id", {
-  method: "POST",
+  method: "DELETE",
+}).then((response) => {
+  if (response.ok) {
+    console.log("Delete successful");
+  } else {
+    console.log("Delete failed");
+  }
 });
 ```
 
@@ -88,18 +106,20 @@ fetch("주소/:id", {
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/posts/", {
   method: "POST",
+  headers: {
+    "Content-type": "application/json; charset=UTF-8",
+  },
   body: JSON.stringify({
     title: "using API",
     body: "JSONPlaceholder",
     failOrSuccess: "success",
   }),
-  headers: {
-    "Content-type": "application/json; charset=UTF-8",
-  },
 })
-  .then((response) => response.json())
-  .then((json) => {
-    console.log(json);
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
   });
 ```
 
