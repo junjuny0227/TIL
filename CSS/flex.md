@@ -7,6 +7,7 @@ display: flex;
 ```
 
 1.  기본 설명
+
     1. 용어 정리
 
        1. main axis: 메인축
@@ -23,7 +24,9 @@ display: flex;
     2. 추가 설명
        1. 크롬 개잘자 도구를 이용하면 Flex를 확인할 수 있다.
        2. 컨테이너가 Flex의 영향을 받는 전체 공간이고, 설정된 속성에 따라 각각의 아이템들이 어떤 형태로 배치되는 것이다.
+
 2.  속성들
+
     1.  flex-direction
 
         아이템들이 배치되는 축의 방향을 결정하는 속성이다.
@@ -81,19 +84,19 @@ display: flex;
 
     4.  align-items
         수직축 방향으로 아이템을들 정렬하는 속성이다. justify-content와 수직 방향의 정렬이라고 생각하면 된다.
-        
+
         ```css
         .container {
-            align-items: stretch / flex-start / flex-end / center / baseline;
+          align-items: stretch / flex-start / flex-end / center / baseline;
         }
         ```
-
 
         1. stretch: 기본값으로, 자식 요소들이 컨테이너의 높이에 맞게 늘어된다.
         2. flex-start: 자식 요소들이 컨테이너의 시작점에 정렬된다.
         3. flex-end: 자식 요소들이 컨테이너의 끝점에 정렬된다.
         4. center: 자식 요소들이 컨테이너의 중앙에 정렬된다.
         5. baseline: 자식 요소들이 텍스트 베이스라인에 맞춰 정렬된다.
+
     5.  align-content
 
         flex-wrap: wrap;이 설정된 상태에서, 아이템들의 행이 2줄 이상 되었을 때의 수직축 방향 정렬을 결정하는 속성이다.

@@ -7,6 +7,7 @@ display: grid;
 ```
 
 1. 기본 설명
+
    1. 용어 정리
 
       1. row : 가로줄(행)
@@ -26,8 +27,11 @@ display: grid;
    2. 추가 설명
       1. 크롬 개발자 도구를 이용하면 grid를 확인할 수 있다.
       2. 컨테이너가 Grid의 영향을 받는 전체 공간이고, 설정된 속성에 따라 각각의 아이템들이 어떤 형태로 배치되는 것이다.
+
 2. 속성들
+
    1. 기본 속성
+
       1. grid-template-columns / grid-template-rows
 
          Grid의 행과 열을 정의하는 핵심 속성이다. 이 둘을 지정하면 Grid cell이 생성된다.
@@ -107,7 +111,9 @@ display: grid;
          ```
 
          auto-flow는 자동으로 배치되는 아이템의 흐름을 설정한다.
+
    2. 정렬속성
+
       1. justify / align-items (가로/세로 방향 정렬)
 
          아이템들을 세로/가로 (row축/column축) 방향으로 정렬하며 컨테이너에 적용한다.
@@ -160,7 +166,9 @@ display: grid;
          - space-around : 항목들 사이에 동일한 간격을 둠
          - space-between : 항목들 사이에 동일한 간격을 둠 (첫 항목과 마지막 항목은 컨테이너에 붙음)
          - space-evenly : 항목들 사이와 항목과 컨테이너 사이에 동일한 간격을 둠
+
    3. 자식 요소 속성
+
       1. grid-column / grid-row
 
          아이템이 Grid 내에서 차지하는 열과 행을 정의한다.
