@@ -16,7 +16,7 @@ props는 **properties**의 줄임말로, 부모 컴포넌트가 자식 컴포넌
 ### 코드
 
 ```jsx
-// App.js (부모 컴포넌트)
+// App.js (부모)
 
 import React from "react";
 import HelloWorld from "./HelloName";
@@ -35,7 +35,7 @@ export default App;
 ```
 
 ```jsx
-// HelloName.js (자식 컴포넌트)
+// HelloName.js (자식)
 
 import React from "react";
 
