@@ -15,29 +15,29 @@ component 사용 예시로는 구글의 관련 검색어 부분이 있는데, �
 ## 코드
 
 ```jsx
-// HelloWorld.js (자식 컴포넌트)
+// Hello.js (자식 컴포넌트)
 
 import React from "react";
 
-function HelloWorld() {
+function Hello() {
   return <h1>Hello, World!</h1>;
 }
 
-export default HelloWorld;
+export default Hello;
 ```
 
 ```jsx
 // App.js (부모 컴포넌트)
 
 import React from "react";
-import HelloWorld from "./HelloWorld";
+import Hello from "./Hello";
 
 function App() {
   return (
     <div>
-      <HelloWorld />
-      <HelloWorld />
-      <HelloWorld />
+      <Hello />
+      <Hello />
+      <Hello />
     </div>
   );
 }
