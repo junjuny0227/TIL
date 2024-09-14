@@ -4,7 +4,7 @@
 
 props는 **properties**의 줄임말로, 부모 컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용되며, props는 자식 컴포넌트가 **읽기만 할 수 있는 불변 객체**로, 자식 컴포넌트는 전달받은 props를 **직접 수정할 수 없다.**
 
-### 예시
+## 예시
 
 ![](https://velog.velcdn.com/images/junjuny0227/post/874a1ec0-7bf6-4c6b-ae27-ec393de65163/image.png)
 
@@ -13,7 +13,7 @@ props는 **properties**의 줄임말로, 부모 컴포넌트가 자식 컴포넌
 > 이해를 돕기 위한 이미지
 > ![](https://velog.velcdn.com/images/junjuny0227/post/774da0b7-1d8a-4e3a-9fab-83825cf9227c/image.png)
 
-### 코드
+## 코드
 
 ```jsx
 // App.js (부모)
