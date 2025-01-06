@@ -1,6 +1,6 @@
 # 빈 요소(Empty Elements)
 
-모든 [요소(elements)](https://github.com/junjuny0227/TIL/blob/main/HTML/element.md)가 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아니다. 주로 무언가를 첨부하기 위해 사용되는 요소(elements)는 **단일 태그**(single tag)를 사용한다.
+모든 [요소(Elements)](https://github.com/junjuny0227/TIL/blob/main/HTML/element.md)가 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아니다. 주로 무언가를 첨부하기 위해 사용되는 요소(Elements)는 **단일 태그**(Single Tag)를 사용한다.
 
 예를 들어, `<img>` 태그는 아래와 같이 이미지를 삽입하기 위해 사용되는 태그이다.
 
@@ -10,7 +10,7 @@
 
 ## 종류
 
-자주 사용되는 빈 요소(empty elements)는 아래와 같다.
+자주 사용되는 빈 요소(Empty Elements)는 아래와 같다.
 
 - `<br>`: 줄바꿈을 할 때 사용
 
