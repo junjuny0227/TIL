@@ -1,4 +1,4 @@
-# 속성(attributes)
+# 속성(Attributes)
 
 요소는 아래와 같이 **속성**(attributes)을 가질 수 있다.
 
