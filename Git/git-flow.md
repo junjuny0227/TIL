@@ -26,4 +26,4 @@ feature -> develop -> release -> main
 
 hotfix -> main
 
-<img src="https://goo-gy.github.io/static/5e2b0ac473ed6ea7282bb1188dcfea43/65d79/git-flow.png" />
+<img src="../img/git-flow.png" />
