@@ -1,6 +1,6 @@
 # 요소(Elements)
 
-**요소**(elements)의 구조는 아래와 같다.
+**요소**(Elements)의 구조는 아래와 같다.
 
 ```html
 <p>HTML is Awesome!</p>
@@ -12,4 +12,4 @@
 
 3. **내용**(content): 요소의 내용을 나타내며, 위 예시에서는 단순 텍스트(HTML is Awesome!)이다.
 
-이 세 가지를 통틀어 요소(elements)라고 한다.
+이 세 가지를 통틀어 요소(Elements)라고 한다.
