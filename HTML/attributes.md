@@ -1,12 +1,12 @@
 # 속성(Attributes)
 
-요소는 아래와 같이 **속성**(attributes)을 가질 수 있다.
+요소는 아래와 같이 **속성**(Attributes)을 가질 수 있다.
 
 ```html
 <p class="title">HTML is Awesome!</p>
 ```
 
-속성(attributes)은 요소에 화면에는 직접 나타나지 않지만 추가적인 정보를 제공하고 싶을 때 사용한다.
+속성(Attributes)은 요소에 화면에는 직접 나타나지 않지만 추가적인 정보를 제공하고 싶을 때 사용한다.
 
 ## 규칙
 
