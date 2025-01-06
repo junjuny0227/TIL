@@ -1,4 +1,4 @@
-# 빈 요소(empty elements)
+# 빈 요소(Empty Elements)
 
 모든 [요소(elements)](https://github.com/junjuny0227/TIL/blob/main/HTML/element.md)가 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아니다. 주로 무언가를 첨부하기 위해 사용되는 요소(elements)는 **단일 태그**(single tag)를 사용한다.
 
