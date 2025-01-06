@@ -1,4 +1,4 @@
-# 요소(elements)
+# 요소(Elements)
 
 **요소**(elements)의 구조는 아래와 같다.
 
