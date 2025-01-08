@@ -40,4 +40,4 @@
 
 ## 사용 예시
 
-<img src="../img/semantic.png" />
+<img src="../img/semantic-tag.png" />
