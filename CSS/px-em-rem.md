@@ -23,13 +23,11 @@ px은 절대값을 사용하는 단위다. 1cm가 항상 1cm인 것처럼, 1px�
 추가로 재밌는 사실이 하나 있는데, `em`을 사용해 박스 **모델 관련 속성**(예: `padding`, `margin`, `width`, `height`)의 크기를 설정하면, 해당 요소의 **자기 자신의** `font-size`를 기준으로 계산되어 적용된다.
 
 ```css
-.container {
-  /* 부모 요소 */
+.container { /* 부모 요소 */
   font-size: 16px;
 }
 
-.items {
-  /* 자식 요소 */
+.items { /* 자식 요소 */
   font-size: 1.5em; /* 부모의 font-size 기준: 16px * 1.5 = 24px */
   padding: 2em; /* 자신의 font-size 기준: 24px * 2 = 48px */
 }
