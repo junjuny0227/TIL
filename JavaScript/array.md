@@ -55,3 +55,27 @@ const arr = new Array(3); // 배열의 크기를 지정
 
 console.log(arr); // [undefined, undefined, undefined]
 ```
+
+## 다른 언어와의 차이
+
+### 배열 내부의 데이터 타입이 다를 수 있다.
+
+```js
+const arr = [1416, "전준연", true];
+
+console.log(arr); // [1416, "전준연", true]
+```
+
+### 배열의 크기가 동적으로 변경될 수 있다.
+
+```js
+const arr = [1416, "전준연", true];
+
+arr[4] = "FE"; // 특정 인덱스에 값 추가 (arr[3]은 값이 할당되지 않았기에 undefined)
+
+console.log(arr); // [1416, "전준연", true, undefined, "FE"]
+
+arr.push("student"); // push 메서드로 새로운 요소 추가
+
+console.log(arr); // [1416, "전준연", true, undefined, "FE", "student"]
+```
