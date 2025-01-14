@@ -9,7 +9,7 @@
 ### 대괄호([])를 사용하여 만드는 방법
 
 ```js
-const arr = []; // 초기 값이 없는 배열
+const arr = []; // 초기값이 없는 배열
 
 // 값 할당
 arr[0] = "zero";
@@ -20,7 +20,7 @@ console.log(arr); // ["zero", "one", "two"]
 ```
 
 ```js
-const arr = ["zero", "one", "two"]; // 초기 값이 있는 배열
+const arr = ["zero", "one", "two"]; // 초기값이 있는 배열
 
 console.log(arr); // ["zero", "one", "two"]
 ```
@@ -34,7 +34,7 @@ console.log(arr); // [undefined, undefined, undefined]
 ### Array 생성자 함수를 사용하여 만드는 방법
 
 ```js
-const arr = new Array(); // 초기 값이 없는 배열
+const arr = new Array(); // 초기값이 없는 배열
 
 // 값 할당
 arr[0] = "zero";
@@ -45,7 +45,7 @@ console.log(arr); // ["zero", "one", "two"]
 ```
 
 ```js
-const arr = new Array("zero", "one", "two"); // 초기 값이 있는 배열
+const arr = new Array("zero", "one", "two"); // 초기값이 있는 배열
 
 console.log(arr); // ["zero", "one", "two"]
 ```
