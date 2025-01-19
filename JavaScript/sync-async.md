@@ -65,3 +65,7 @@ console.log("작업 종료");
 작업 종료
 비동기 작업 완료
 ```
+
+## 참고
+
+<img src="../img/sync-async.png" />
