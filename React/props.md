@@ -14,7 +14,7 @@ Props는 아래와 같은 특징들을 가지고 있다.
 
 ## 코드
 
-#### 부모 Component:
+#### 부모 컴포넌트:
 
 ```jsx
 const Parent = () => {
@@ -29,7 +29,7 @@ const Parent = () => {
 };
 ```
 
-#### 자식 Component:
+#### 자식 컴포넌트:
 
 ```jsx
 // 방법 1: props를 통해 데이터 접근
